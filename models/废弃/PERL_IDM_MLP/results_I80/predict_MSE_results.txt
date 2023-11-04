@@ -1,0 +1,88 @@
+PERL(IDM+MLP)
+
+2023-08-06 16:38:02
+MSE when predicting multi steps acceleration: 0.12629734633421638
+MSE when predicting first acceleration: 0.07119060626208108
+
+2023-08-06 16:40:03
+MSE when predicting multi steps acceleration: 0.12629734633421638
+MSE when predicting first acceleration: 0.07119060626208108
+
+2023-08-06 16:50:54
+MSE when predicting multi steps acceleration: 0.12629734633421638
+MSE when predicting first acceleration: 0.07119060626208108
+
+2023-08-06 19:42:24
+MSE when predicting multi steps acceleration: 0.10940421951766195
+MSE when predicting first acceleration: 0.058946880525479355
+
+2023-08-08 12:12:01
+MSE when predict multi-step a: 0.10940421951766195
+MSE when predict first a: 0.058946880525479355
+MSE when predict multi-step v: 0.0
+MSE when predict first v: 0.0
+
+2023-08-08 12:29:34
+MSE when predict multi-step a: 0.10940421951766195
+MSE when predict first a: 0.058946880525479355
+MSE when predict multi-step v: 0.0
+MSE when predict first v: 0.0
+MSE when predict multi-step y: 15.108788304704749
+MSE when predict first y: 9.490771339172978
+
+2023-08-08 12:35:07
+MSE when predict multi-step a: 0.10940421951766195
+MSE when predict first a: 0.058946880525479355
+MSE when predict multi-step v: 0.007634665837296236
+MSE when predict first v: 0.0018068877691115501
+MSE when predict multi-step y: 15.109058307308132
+MSE when predict first y: 9.490771339172978
+
+2023-08-08 13:18:42
+MSE when predict multi-step a: 0.08900959926695777
+MSE when predict first a: 0.04083849496037336
+MSE when predict multi-step v: 0.007513268120723282
+MSE when predict first v: 0.001603690602193732
+MSE when predict multi-step y: 15.108933371687547
+MSE when predict first y: 9.490612405158174
+
+2023-08-08 20:53:16
+MSE when predict multi-step a: 0.08247265867708121
+MSE when predict first a: 0.028542831737806112
+MSE when predict multi-step v: 0.007410804889019872
+MSE when predict first v: 0.001469883973573041
+MSE when predict multi-step y: 15.108900058533674
+MSE when predict first y: 9.49042561945971
+
+2023-08-09 00:08:59
+MSE when predict multi-step a: 0.07891366823841742
+MSE when predict first a: 0.024695456978962804
+MSE when predict multi-step v: 0.007400758610590985
+MSE when predict first v: 0.001426628490604096
+MSE when predict multi-step y: 15.108756853346858
+MSE when predict first y: 9.490434650150231
+
+Change:
+early_stopping = EarlyStopping(monitor='loss', patience=5, min_delta= from 0.0001 to 0.00001, verbose=1)
+
+2023-08-09 00:15:59
+MSE when predict multi-step a: 0.07992395213412118
+MSE when predict first a: 0.02545148707416023
+MSE when predict multi-step v: 0.0074337388875779006
+MSE when predict first v: 0.001444956031620804
+MSE when predict multi-step y: 15.108868757675072
+MSE when predict first y: 9.490449986776982
+
+Change:
+    model = Sequential([
+        Dense(128, activation='relu', input_shape=(train_x.shape[1],)),
+        Dense(from 128 to 64, activation='relu'),
+
+2023-08-09 00:20:02
+MSE when predict multi-step a: 0.07320533611603941
+MSE when predict first a: 0.02197577416808554
+MSE when predict multi-step v: 0.007368661311736274
+MSE when predict first v: 0.0013993447675599512
+MSE when predict multi-step y: 15.108929819186155
+MSE when predict first y: 9.49057993999511
+

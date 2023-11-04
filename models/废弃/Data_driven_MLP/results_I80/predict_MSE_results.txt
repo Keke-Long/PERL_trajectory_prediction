@@ -1,0 +1,4 @@
+2023-08-06 22:35:33
+MSE when predicting multi steps acceleration: 0.08047994075209779
+MSE when predicting first acceleration: 0.031038188174174423
+

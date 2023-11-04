@@ -1,0 +1,36 @@
+
+2023-08-09 19:47:46
+MSE when predict a of single-steps: 0.78285
+MSE when predict a of multi-steps: 0.46657
+MSE when predict v of multi-steps: 0.17837
+MSE when predict y of multi-steps: 104.81800
+
+2023-08-09 20:16:22
+MSE when predict a of single-steps: 0.72227
+MSE when predict a of multi-steps: 0.43403
+MSE when predict v of multi-steps: 0.17054
+MSE when predict y of multi-steps: 110.82159
+
+2023-09-14 15:40:16
+MSE when predict a of single-steps: 0.60148
+MSE when predict a of multi-steps: 0.44203
+MSE when predict v of multi-steps: 0.18166
+MSE when predict y of multi-steps: 131.76403
+
+2023-09-17 09:00:48
+MSE when predict a of single-steps: 1.15148
+MSE when predict a of multi-steps: 0.36707
+MSE when predict v of multi-steps: 0.21106
+MSE when predict y of multi-steps: 136.69993
+
+2023-09-17 09:05:29
+MSE when predict a of multi-steps: 0.36707
+MSE when predict v of multi-steps: 0.21106
+
+2023-09-17 09:28:07
+MSE when predict a of multi-steps: 0.37184
+MSE when predict v of multi-steps: 0.22222
+
+
+Newell_Average Speed MSE: 1.9196534365259776
+Newell_Average Acceleration MSE: 0.29544462424901075
